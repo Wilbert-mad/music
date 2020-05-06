@@ -1,0 +1,16 @@
+{
+  "name": "element",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "nodemon bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "opusscript": "0.0.7",
+    "ytdl-core": "^2.1.1"
+  }
+}
