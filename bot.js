@@ -63,7 +63,7 @@ client.on("message", message => {
 
 	if(cmd === `${prefix}stop`) {
 		var server = servers[message.guild.id];
-		 if(message.guild.voice) {
+		 if(message.guild.voice.connection) {
 		 	for(var i = server.queue - 1; i >= 0; i--) {
 		 		server.queue.splice(i, 1)
 		 	}
