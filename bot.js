@@ -70,6 +70,6 @@ client.on("message", message => {
 		 	server.dispatcher.end();
 		 	console.log("stoped playing music")
 		 }
-		if(message.guild.connection) message.guild.voiceConnection.disconnect();
+		if(message.guild.voice.connection) message.guild.voice.connection.disconnect();
 	}
 });
