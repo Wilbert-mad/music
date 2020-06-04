@@ -10,5 +10,5 @@ as a one time thing but for simple things it could work. But i will retern to my
 # Require
 
 * Ffmpeg
-* opusscript
-* ytdl-core or @discordjs/opus
+* opusscript or @discordjs/opus
+* ytdl-core 
